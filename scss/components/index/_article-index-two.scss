@@ -1,0 +1,37 @@
+.article-index-two {
+    background-image: url("../image/main-index/index-plane.png");
+    background-size: cover;
+    background-color: #ffffff75;
+    background-blend-mode: soft-light;
+    @extend %flex;
+
+    section {
+        width: $width - 30%;
+
+        div {
+            
+            div {
+                @extend %flex;
+                padding: 3%;
+
+                @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+                    flex-wrap: wrap;
+                }
+
+                img {
+                    margin-right: 10%;
+                    margin-bottom: 5%;
+                }
+
+                p {
+                    margin-top: 10%;
+                    margin-bottom: 0;
+                }
+
+                h3 {
+                    font-family: $secondary-title;
+                }
+            }
+        }
+    }
+}

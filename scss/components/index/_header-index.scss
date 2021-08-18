@@ -1,0 +1,63 @@
+.header-index {
+    background-color: #505050;
+    background-image: url("../image/header/index.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    border-bottom: solid 10px transparent;
+    border-image: linear-gradient(to right, $bg-menu3, $bg-menu4);
+    border-image-slice: 1;
+    box-shadow: 0 15px 25px #00000033;
+
+    section {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+
+        h1 {
+            margin-bottom: 10%;
+            color: #e0e0e0;
+            font-family: $airschool;
+
+            @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+                margin-bottom: 0;
+                margin-top: 4%;
+            }
+
+            @media only screen and (max-width:426px) { /*Mobile*/
+                margin-bottom: 0;
+                margin-top: 50%;
+                font-size: 3rem;
+            }
+
+            img {
+                height: 2rem;
+            }
+        }
+
+        div {
+
+            @media only screen and (max-width:426px) { /*Mobile*/
+                display: none;
+            }
+            
+            h2 {
+                text-align: center;
+                padding: 5%;
+                color: #e0e0e0;
+                font-family: $primary-title;
+            }
+
+            h3 {
+                color: #e0e0e0;
+                font-family: $primary-title;
+
+                @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

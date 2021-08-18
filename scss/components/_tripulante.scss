@@ -1,0 +1,22 @@
+/*Tripulante--------------------------------------------------------------------*/
+@import "../components/tripulante/header-tripulante";
+
+.main-tripulante {
+    background-image: linear-gradient(to bottom, #ffffff, #e1e1e1, #c4c4c4);
+    border-bottom: solid 5px transparent;
+    border-image: linear-gradient(to right, $bg-menu2, $bg-menu3);
+    border-image-slice: 1;
+
+    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+        padding: 0;
+    }
+
+    @media only screen and (max-width:426px) { /*Mobile*/
+        padding: 0;
+    }
+}
+
+@import "../components/tripulante/article-tripulante-one";
+@import "../components/tripulante/article-tripulante-two";
+@import "../components/tripulante/article-tripulante-three";
+/*Tripulante--------------------------------------------------------------------*/

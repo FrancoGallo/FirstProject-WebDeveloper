@@ -1,0 +1,62 @@
+/*Social Menú--------------------------------------------------------------------------*/
+.socialMenu {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+
+    @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
+        display: none;
+    }
+
+    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+        display: none;
+    }
+
+    @media only screen and (max-width:426px) { /*Mobile*/
+        display: none;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            a {
+                display: inline-block;
+                color: #ffffff;
+                background-color: #000000;
+                padding: 10px 15px;
+                text-decoration: none;
+                transition: all 500ms ease;
+
+                &:hover {padding: 10px 30px;}
+            }
+            
+            .icon-whatsapp {
+                background-color: #3ae058;
+            }
+            
+            .icon-facebook2 {
+                background-color: #1877f2;
+            }
+            
+            .icon-instagram {
+                background-image: linear-gradient(to right top, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            }
+            
+            .icon-twitter {
+                background-color: #1da1f2;
+            }
+            
+            .icon-youtube {
+                background-color: #dd0000;
+            }
+            
+            .icon-mail2 {
+                background-color: #666666;
+            }
+        }
+    }
+}
+/*Social Menú--------------------------------------------------------------------------*/

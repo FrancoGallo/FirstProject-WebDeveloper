@@ -1,0 +1,35 @@
+.article-escuela-one {
+    padding: 3% 0 2%;
+
+    .escuela-one-text { 
+        text-align: center;
+        font-size: 1.5rem;
+
+        @media only screen and (max-width:426px) { /*Mobile*/
+            text-align: start;
+            padding-left: 1%;
+        }
+    }
+
+    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+
+        .row {
+            flex-direction: column;
+
+            .col-6 {
+                width: auto;
+            }
+        }
+    }
+
+    @media only screen and (max-width:426px) { /*Mobile*/
+
+        .row {
+            flex-direction: column;
+
+            .col-6 {
+                width: auto;
+            }
+        }
+    }
+}

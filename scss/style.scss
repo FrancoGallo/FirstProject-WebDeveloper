@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital@1&display=swap'); /*font-family: 'Tourney', "cursive";*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap'); /*font-family: 'Black Ops One', "cursive";*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap'); /*font-family: 'Bungee', "cursive";*/
+
+/*Reset------------------------------------------------------------------------------------------*/
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.main-escuela, .main-tripulante, .main-contacto {
+    padding: 0 10%;
+    font-family: 'Roboto', "sans-serif";
+    line-height: 1.7;
+}
+/*Reset------------------------------------------------------------------------------------------*/
+
+@import "base/variables";
+
+@import "base/extends";
+
+@import "base/mixins";
+
+@import "components/nav";
+
+@import "components/socialMenu";
+
+@import "components/footer";
+
+@import "components/index";
+
+@import "components/escuela";
+
+@import "components/tripulante";
+
+@import "components/piloto";
+
+@import "components/contacto";

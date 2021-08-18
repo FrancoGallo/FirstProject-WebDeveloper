@@ -1,0 +1,27 @@
+/*Escuela--------------------------------------------------------------------*/
+@import "../components/escuela/header-escuela";
+
+.main-escuela {
+    background-image: linear-gradient(to bottom, #ffffff, #e1e1e1, #c4c4c4);
+    border-bottom: solid 5px transparent;
+    border-image: linear-gradient(to right, $bg-menu1, $bg-menu2);
+    border-image-slice: 1;
+
+    @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
+        padding: 0;
+    }
+
+    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+        padding: 0;
+    }
+
+    @media only screen and (max-width:426px) { /*Mobile*/
+        padding: 0;
+    }
+}
+
+@import "../components/escuela/article-escuela-one";
+@import "../components/escuela/article-escuela-two";
+@import "../components/escuela/article-escuela-three";
+@import "../components/escuela/article-escuela-four";
+/*Escuela--------------------------------------------------------------------*/

@@ -1,0 +1,13 @@
+/*Index-------------------------------------------------------------------------------------------------------------*/
+@import "../components/index/header-index";
+
+.main-index {
+    border-bottom: solid 5px transparent;
+    border-image: linear-gradient(to right, $bg-menu3, $bg-menu4);
+    border-image-slice: 1;
+}
+
+@import "../components/index/article-index-one";
+@import "../components/index/article-index-two";
+@import "../components/index/article-index-three";
+/*Index-------------------------------------------------------------------------------------------------------------*/

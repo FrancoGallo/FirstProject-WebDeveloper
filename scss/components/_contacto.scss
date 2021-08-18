@@ -1,0 +1,25 @@
+/*Contacto--------------------------------------------------------------*/
+@import "../components/contacto/header-contacto";
+
+.main-contacto {
+    border-bottom: solid 5px transparent;
+    border-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #ffffff, #e1e1e1, #c4c4c4);
+
+    @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
+        padding: 0;
+    }
+
+    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+        padding: 0;
+    }
+
+    @media only screen and (max-width:426px) { /*Mobile*/
+        padding: 0;
+    }
+}
+
+@import "../components/contacto/article-contacto-one";
+@import "../components/contacto/article-contacto-two";
+/*Contacto--------------------------------------------------------------*/

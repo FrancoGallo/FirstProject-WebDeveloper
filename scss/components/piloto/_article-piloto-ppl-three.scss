@@ -1,0 +1,24 @@
+.article-piloto-ppl-three {
+    background-image: linear-gradient(to bottom, #b4b4b4, #a5a5a5);
+    padding: 3% 10%;
+    display: flex;
+    
+    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    @media only screen and (max-width:426px) { /*Mobile*/
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .piloto-ppl-three-text {
+        order: 1;
+        padding: 6% 0;
+        
+        div {
+            text-align: center;
+        }
+    }
+}

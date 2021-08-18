@@ -1,0 +1,163 @@
+/*Nav-------------------------------------------------------------------------------------------------*/
+header {
+    width: 100%;
+    overflow: hidden;
+    height: 577px;
+    position: relative;
+
+    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+        height: 400px;
+    }
+
+    @media only screen and (max-width:426px) { /*Mobile*/
+        height: 400px;
+    }
+
+    nav {
+        top: -20px;
+        position: absolute;
+        left: 0;
+        right: 0;
+	    margin: 20px auto;
+	    width: $width - 20%;
+        position: fixed;
+        z-index: 5000;
+
+        @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
+            width: $width;
+            position: absolute;
+        }
+
+        @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+            width: 100%;
+            position: absolute;
+        }
+
+        @media only screen and (max-width:426px) { /*Mobile*/
+            width: 100%;
+            position: absolute;
+        }
+
+        ul {
+            list-style: none;
+            display: table;
+	        width: 100%;
+	        background-color: $bg-menu;
+	        position: relative;
+            padding-left: 0;
+
+            li {
+                display: table-cell;
+
+                @media only screen and (max-width:426px) { /*Mobile*/
+                    display: list-item;
+                }
+
+                &:hover {
+
+                    ul {
+                        display: block;
+                        height: 100%;
+
+                        @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+                        display: none;
+                        }
+
+                        @media only screen and (max-width:426px) { /*Mobile*/
+                            display: none;
+                        }
+                    }
+                }
+
+                a {
+                    color: #fff;
+	                display: block;
+	                line-height: 20px;
+	                padding: 20px;
+	                position: relative;
+	                text-align: center;
+	                text-decoration: none;
+
+                    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+                        font-size: 0.9rem;
+                        padding: 10px;
+                    }
+
+                    @media only screen and (max-width:426px) { /*Mobile*/
+                        font-size: 0.8rem;
+                        padding: 5px;
+                    }
+
+                    &:hover {
+                        color: #ffffff;
+                  
+                        span {top: 0;}}
+
+                    .bg-menu1 {
+                        background-image: linear-gradient(to right, $bg-menu1, $bg-menu2);
+                    }
+                    
+                    .bg-menu2 {
+                        background-image: linear-gradient(to right, $bg-menu2, $bg-menu3);
+                    }
+                    
+                    .bg-menu3 {
+                        background-image: linear-gradient(to right, $bg-menu3, $bg-menu4);
+                    }
+                    
+                    .bg-menu4 {
+                        background-image: linear-gradient(to right, $bg-menu4, $bg-menu5);
+                    }
+                    
+                    .bg-menu5 {
+                        background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
+                    }
+
+                    span {
+                        background-color: #174459;
+                        color: #ffffff;
+	                    display: block;
+	                    height: 100%;
+	                    width: 100%;
+	                    left: 0;
+	                    position: absolute;
+	                    top: -55px;
+                        @include transition (all .3s ease);
+
+                        @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+                            display: none;
+                        }
+
+                        @media only screen and (max-width:426px) { /*Mobile*/
+                            display: none;
+                        }
+
+                        .icon-header {
+                            display: block;
+	                        line-height: 60px;
+                        }
+                    }
+                }
+
+                ul {
+                    list-style: none;
+                    display: block;
+	                position: absolute;
+	                background-color: $bg-menu;
+	                overflow: hidden;
+                    width: auto;
+	                height: 0%;
+                    padding-left: 0;
+                    @include transition (all .3s ease);
+
+                    li {
+                        a {
+                            &:hover {background-color: $bg-submenu-hover;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*Nav-------------------------------------------------------------------------------------------------*/

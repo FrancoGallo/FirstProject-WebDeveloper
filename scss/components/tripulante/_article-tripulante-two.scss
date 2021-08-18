@@ -1,0 +1,62 @@
+.article-tripulante-two {
+    padding: 2% 0;
+    @extend %flex;
+
+    @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
+        flex-wrap: wrap;
+    }
+
+    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+        flex-wrap: wrap;
+    }
+
+    @media only screen and (max-width:426px) { /*Mobile*/
+        flex-wrap: wrap;
+    }
+
+    .tripulante-two-img {
+        margin-right: 1%;
+
+        img {
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    .tripulante-two-text {
+
+        @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
+            margin-top: 3%;
+        }
+
+        @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+            margin-top: 3%;
+        }
+
+        div {
+
+            h2 {
+                margin-bottom: 6%;
+            }
+        }
+
+        div {
+            
+            div {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5%;
+
+                img {
+                    width: 20px;
+                    height: 15px;
+                    margin-right: 2%;
+                }
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

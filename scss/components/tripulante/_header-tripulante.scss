@@ -1,0 +1,22 @@
+.header-tripulante {
+    background-color: #505050;
+    background-blend-mode: soft-light;
+    background-image: url("../image/header/tripulante.png");
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: solid 10px transparent;
+    border-image: linear-gradient(to right, $bg-menu2, $bg-menu3);
+    border-image-slice: 1;
+    box-shadow: 0 15px 25px #00000033;
+
+    section {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 13%;
+        color: #e0e0e0;
+        font-family: $primary-title;
+    }
+}

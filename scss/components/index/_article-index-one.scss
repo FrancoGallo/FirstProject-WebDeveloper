@@ -1,0 +1,44 @@
+.article-index-one {
+
+    section {
+        
+        h2 {
+            padding: 3% 2% 1% 2%;
+            font-family: $secondary-title;
+        }
+    }
+
+    section {
+        @extend %flex;
+
+        @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
+            justify-content: space-around;
+        }
+
+        @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+            flex-wrap: wrap;
+        }
+
+        @media only screen and (max-width:426px) { /*Mobile*/
+            flex-wrap: wrap;
+        }
+
+        div {
+            margin: 1%;
+            font-family: none;
+
+            div {
+                border: solid 3px #d4d4d8;
+                border-radius: 25%;
+
+                &:hover {
+                    background-image: linear-gradient(to right, $bg-menu3, $bg-menu4);
+                }
+            }
+            
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

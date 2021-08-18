@@ -1,0 +1,36 @@
+/*Footer--------------------------------------------------------------------------------------------------------*/
+footer {
+    background-color: $bg-footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 1%;
+    padding-left: 2%;
+
+    section {
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    ul {
+        margin-bottom: 0;
+
+        a {
+            margin-left: 10px;
+            text-decoration: none;
+
+            img {
+                height: 25px;
+                @include transition (all 300ms ease);
+
+                &:hover {
+                    height: 30px;
+                    @include transition (all 300ms ease);
+                }
+            }  
+        }
+    }
+}
+/*Footer--------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,19 @@
+/*Piloto-----------------------------------------------------------------------------------------------------------*/
+@import "../components/piloto/header-piloto";
+
+.main-piloto {
+    border-bottom: solid 5px transparent;
+    border-image: linear-gradient(to right, $bg-menu4, $bg-menu5);
+    border-image-slice: 1;
+}
+
+/*article-piloto-ppl*/
+@import "../components/piloto/article-piloto-ppl-one";
+@import "../components/piloto/article-piloto-ppl-two";
+@import "../components/piloto/article-piloto-ppl-three";
+
+/*article-piloto-cpl*/
+@import "../components/piloto/article-piloto-cpl-one";
+@import "../components/piloto/article-piloto-cpl-two";
+@import "../components/piloto/article-piloto-cpl-three";
+/*Piloto-----------------------------------------------------------------------------------------------------------*/
