@@ -4,4 +4,29 @@
     .tripulante-three-title {
         padding: 1%;
     }
+
+    .accordion {
+
+        .accordion-button {
+
+            &:hover {
+                background-image: linear-gradient(to right, $bg-menu2, $bg-menu3);
+            }
+
+            &:active {
+                background-image: linear-gradient(to right, $bg-menu2, $bg-menu3);
+                color: #000000 !important;
+            }
+
+            &:not(.collapsed) {
+                background-image: linear-gradient(to right, $bg-menu2, $bg-menu3);
+                color: #000000 !important;
+            }
+        }
+
+        .accordion-body {
+            color: #ffffff;
+            background-color: #686868;
+        }
+    }
 }

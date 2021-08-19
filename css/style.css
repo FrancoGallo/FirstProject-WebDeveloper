@@ -838,6 +838,21 @@ footer ul a img:hover {
 .article-tripulante-three .tripulante-three-title {
   padding: 1%;
 }
+.article-tripulante-three .accordion .accordion-button:hover {
+  background-image: linear-gradient(to right, #ffa500, #ffd900);
+}
+.article-tripulante-three .accordion .accordion-button:active {
+  background-image: linear-gradient(to right, #ffa500, #ffd900);
+  color: #000000 !important;
+}
+.article-tripulante-three .accordion .accordion-button:not(.collapsed) {
+  background-image: linear-gradient(to right, #ffa500, #ffd900);
+  color: #000000 !important;
+}
+.article-tripulante-three .accordion .accordion-body {
+  color: #ffffff;
+  background-color: #686868;
+}
 
 /*Tripulante--------------------------------------------------------------------*/
 /*Piloto-----------------------------------------------------------------------------------------------------------*/
@@ -972,6 +987,22 @@ footer ul a img:hover {
   padding: 3% 10%;
   display: flex;
 }
+.article-piloto-ppl-three .accordion .accordion-button:hover {
+  background-image: linear-gradient(to right, #00ad00, #0000ff) !important;
+  color: #ffffff !important;
+}
+.article-piloto-ppl-three .accordion .accordion-button:active {
+  background-image: linear-gradient(to right, #00ad00, #0000ff) !important;
+  color: #ffffff;
+}
+.article-piloto-ppl-three .accordion .accordion-button:not(.collapsed) {
+  background-image: linear-gradient(to right, #00ad00, #0000ff) !important;
+  color: #ffffff !important;
+}
+.article-piloto-ppl-three .accordion .accordion-body {
+  color: #ffffff;
+  background-color: #686868;
+}
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .article-piloto-ppl-three {
     /*Tablet*/
@@ -1104,6 +1135,22 @@ footer ul a img:hover {
 .article-piloto-cpl-three {
   background-image: linear-gradient(to bottom, #b4b4b4, #a5a5a5);
   padding: 3% 10%;
+}
+.article-piloto-cpl-three .accordion .accordion-button:hover {
+  background-image: linear-gradient(to right, #00ad00, #0000ff) !important;
+  color: #ffffff !important;
+}
+.article-piloto-cpl-three .accordion .accordion-button:active {
+  background-image: linear-gradient(to right, #00ad00, #0000ff) !important;
+  color: #ffffff;
+}
+.article-piloto-cpl-three .accordion .accordion-button:not(.collapsed) {
+  background-image: linear-gradient(to right, #00ad00, #0000ff) !important;
+  color: #ffffff !important;
+}
+.article-piloto-cpl-three .accordion .accordion-body {
+  color: #ffffff;
+  background-color: #686868;
 }
 .article-piloto-cpl-three .piloto-cpl-three-title div h4 {
   text-align: center;

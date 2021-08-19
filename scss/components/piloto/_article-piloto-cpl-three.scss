@@ -2,6 +2,32 @@
     background-image: linear-gradient(to bottom, #b4b4b4, #a5a5a5);
     padding: 3% 10%;
 
+    .accordion {
+
+        .accordion-button {
+
+            &:hover {
+                background-image: linear-gradient(to right, $bg-menu4, $bg-menu5) !important;
+                color: #ffffff !important;
+            }
+
+            &:active {
+                background-image: linear-gradient(to right, $bg-menu4, $bg-menu5) !important;
+                color: #ffffff;
+            }
+
+            &:not(.collapsed) {
+                background-image: linear-gradient(to right, $bg-menu4, $bg-menu5) !important;
+                color: #ffffff !important;
+            }
+        }
+
+        .accordion-body {
+            color: #ffffff;
+            background-color: #686868;
+        }
+    }
+
     .piloto-cpl-three-title {
 
         div {
