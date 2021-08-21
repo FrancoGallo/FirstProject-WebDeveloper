@@ -553,6 +553,9 @@ footer ul a img:hover {
 .article-escuela-one {
   padding: 3% 0 2%;
 }
+.article-escuela-one .card {
+  background-image: linear-gradient(to right, #dd0000, #ffa500);
+}
 .article-escuela-one .escuela-one-text {
   text-align: center;
   font-size: 1.5rem;
@@ -565,10 +568,8 @@ footer ul a img:hover {
   }
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-  .article-escuela-one {
-    /*Tablet*/
-  }
   .article-escuela-one .row {
+    /*Tablet*/
     flex-direction: column;
   }
   .article-escuela-one .row .col-6 {
@@ -576,10 +577,8 @@ footer ul a img:hover {
   }
 }
 @media only screen and (max-width: 426px) {
-  .article-escuela-one {
-    /*Mobile*/
-  }
   .article-escuela-one .row {
+    /*Mobile*/
     flex-direction: column;
   }
   .article-escuela-one .row .col-6 {

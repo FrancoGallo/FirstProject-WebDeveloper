@@ -1,6 +1,10 @@
 .article-escuela-one {
     padding: 3% 0 2%;
 
+    .card {
+        background-image: linear-gradient(to right, $bg-menu1, $bg-menu2);
+    }
+
     .escuela-one-text { 
         text-align: center;
         font-size: 1.5rem;
@@ -11,9 +15,9 @@
         }
     }
 
-    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+    @media only screen and (min-width:426px) and (max-width:768px) {
 
-        .row {
+        .row { /*Tablet*/
             flex-direction: column;
 
             .col-6 {
@@ -22,9 +26,9 @@
         }
     }
 
-    @media only screen and (max-width:426px) { /*Mobile*/
+    @media only screen and (max-width:426px) {
 
-        .row {
+        .row { /*Mobile*/
             flex-direction: column;
 
             .col-6 {
