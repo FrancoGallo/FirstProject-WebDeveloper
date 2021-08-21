@@ -1224,6 +1224,12 @@ footer ul a img:hover {
 }
 .article-contacto-two section .col-4 .card {
   border-radius: 1.5rem;
+  background-image: linear-gradient(to right, #0000ff, #7a007a);
+  color: #ffffff;
+}
+.article-contacto-two section .col-4 .card a {
+  background-color: #686868;
+  border-color: #ffffff00;
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .article-contacto-two section .col-4 {

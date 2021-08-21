@@ -12,6 +12,13 @@
 
             .card {
                 border-radius: 1.5rem;
+                background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
+                color: #ffffff;
+
+                a {
+                    background-color: #686868;
+                    border-color: #ffffff00;
+                }
             }
 
             @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
