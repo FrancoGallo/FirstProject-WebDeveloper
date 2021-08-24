@@ -293,11 +293,11 @@ header nav ul li ul li a:hover {
 .socialMenu ul li .icon-instagram {
   background-image: linear-gradient(to right top, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
-.socialMenu ul li .icon-twitter {
-  background-color: #1da1f2;
+.socialMenu ul li .icon-linkedin {
+  background-color: #0a66c2;
 }
-.socialMenu ul li .icon-youtube {
-  background-color: #dd0000;
+.socialMenu ul li .icon-github {
+  background-color: #4c0098;
 }
 .socialMenu ul li .icon-mail2 {
   background-color: #666666;
