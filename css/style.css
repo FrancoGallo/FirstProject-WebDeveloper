@@ -214,20 +214,50 @@ header nav ul li ul li a:hover {
 .navbar img {
   height: 30px;
 }
-.navbar ul .item-1 {
+.navbar .navBar-bg-escuela {
   background-image: linear-gradient(to right, #dd0000, #ffa500);
 }
-.navbar ul .item-2 {
+.navbar .navBar-bg-escuela .nav-item {
+  color: #000000;
+}
+.navbar .navBar-bg-escuela .nav-item .nav-link {
+  color: #000000;
+}
+.navbar .navBar-bg-tripulante {
   background-image: linear-gradient(to right, #ffa500, #ffd900);
 }
-.navbar ul .item-3 {
+.navbar .navBar-bg-tripulante .nav-item {
+  color: #000000;
+}
+.navbar .navBar-bg-tripulante .nav-item .nav-link {
+  color: #000000;
+}
+.navbar .navBar-bg-index {
   background-image: linear-gradient(to right, #ffd900, #00ad00);
 }
-.navbar ul .item-4 {
+.navbar .navBar-bg-index .nav-item {
+  color: #000000;
+}
+.navbar .navBar-bg-index .nav-item .nav-link {
+  color: #000000;
+}
+.navbar .navBar-bg-piloto {
   background-image: linear-gradient(to right, #00ad00, #0000ff);
 }
-.navbar ul .item-5 {
+.navbar .navBar-bg-piloto .nav-item {
+  color: #ffffff;
+}
+.navbar .navBar-bg-piloto .nav-item .nav-link {
+  color: #ffffff;
+}
+.navbar .navBar-bg-contacto {
   background-image: linear-gradient(to right, #0000ff, #7a007a);
+}
+.navbar .navBar-bg-contacto .nav-item {
+  color: #ffffff;
+}
+.navbar .navBar-bg-contacto .nav-item .nav-link {
+  color: #ffffff;
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .navbar {

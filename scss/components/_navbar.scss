@@ -6,17 +6,64 @@
         height: 30px;
     }
 
-    ul {
+    .navBar-bg-escuela {
+        background-image: linear-gradient(to right, $bg-menu1, $bg-menu2);
 
-        .item-1 {background-image: linear-gradient(to right, $bg-menu1, $bg-menu2);}
+        .nav-item {
+            color: #000000;
+            
+            .nav-link {
+                color: #000000;
+            }
+        }
+    }
 
-        .item-2 {background-image: linear-gradient(to right, $bg-menu2, $bg-menu3);}
+    .navBar-bg-tripulante {
+        background-image: linear-gradient(to right, $bg-menu2, $bg-menu3);
 
-        .item-3 {background-image: linear-gradient(to right, $bg-menu3, $bg-menu4);}
+        .nav-item {
+            color: #000000;
+            
+            .nav-link {
+                color: #000000;
+            }
+        }
+    }
 
-        .item-4 {background-image: linear-gradient(to right, $bg-menu4, $bg-menu5);}
+    .navBar-bg-index {
+        background-image: linear-gradient(to right, $bg-menu3, $bg-menu4);
 
-        .item-5 {background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);}
+        .nav-item {
+            color: #000000;
+            
+            .nav-link {
+                color: #000000;
+            }
+        }
+    }
+
+    .navBar-bg-piloto {
+        background-image: linear-gradient(to right, $bg-menu4, $bg-menu5);
+
+        .nav-item {
+            color: #ffffff;
+            
+            .nav-link {
+                color: #ffffff;
+            }
+        }
+    }
+    
+    .navBar-bg-contacto {
+        background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
+
+        .nav-item {
+            color: #ffffff;
+            
+            .nav-link {
+                color: #ffffff;
+            }
+        }
     }
 
     @media only screen and (min-width:426px) and (max-width:768px) {
