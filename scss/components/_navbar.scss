@@ -1,0 +1,33 @@
+.navbar {
+    display: none;
+    background-color: $bg-menu;
+
+    img {
+        height: 30px;
+    }
+
+    ul {
+
+        .item-1 {background-image: linear-gradient(to right, $bg-menu1, $bg-menu2);}
+
+        .item-2 {background-image: linear-gradient(to right, $bg-menu2, $bg-menu3);}
+
+        .item-3 {background-image: linear-gradient(to right, $bg-menu3, $bg-menu4);}
+
+        .item-4 {background-image: linear-gradient(to right, $bg-menu4, $bg-menu5);}
+
+        .item-5 {background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);}
+    }
+
+    @media only screen and (min-width:426px) and (max-width:768px) {
+        display: flex;
+        width: auto;
+        margin: 20px auto 0;
+    }
+
+    @media only screen and (max-width:426px) {
+        display: flex;
+        width: auto;
+        margin: 20px auto 0;
+    }
+}

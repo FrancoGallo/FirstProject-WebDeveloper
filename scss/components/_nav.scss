@@ -29,13 +29,11 @@ header {
         }
 
         @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
-            width: 100%;
-            position: absolute;
+            display: none;
         }
 
         @media only screen and (max-width:426px) { /*Mobile*/
-            width: 100%;
-            position: absolute;
+            display: none;
         }
 
         ul {
