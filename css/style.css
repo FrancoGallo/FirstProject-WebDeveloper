@@ -349,19 +349,23 @@ footer section p {
 footer ul {
   margin-bottom: 0;
 }
-footer ul a {
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
   margin-left: 10px;
   text-decoration: none;
 }
-footer ul a img {
+footer ul li a img {
   height: 25px;
+  width: auto;
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
 }
-footer ul a img:hover {
+footer ul li a img:hover {
   height: 30px;
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
@@ -415,6 +419,7 @@ footer ul a img:hover {
 }
 .header-index section h1 img {
   height: 2rem;
+  width: auto;
 }
 @media only screen and (max-width: 426px) {
   .header-index section div {
@@ -503,6 +508,8 @@ footer ul a img:hover {
 .article-index-two section div div img {
   margin-right: 10%;
   margin-bottom: 5%;
+  width: auto;
+  height: auto;
 }
 .article-index-two section div div p {
   margin-top: 10%;
@@ -513,7 +520,7 @@ footer ul a img:hover {
 }
 
 .article-index-three {
-  background-color: #83858e;
+  background-color: #747474;
   padding: 1% 1% 1% 2%;
 }
 .article-index-three section {
@@ -522,6 +529,7 @@ footer ul a img:hover {
   justify-content: space-between;
 }
 .article-index-three section div h3 {
+  color: #ffffff;
   font-family: "Bungee", "cursive";
   font-size: 1.3rem;
   margin-bottom: 0;
