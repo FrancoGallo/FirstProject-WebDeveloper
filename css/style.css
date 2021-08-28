@@ -246,6 +246,7 @@ header nav ul li ul li a:hover {
   padding-top: 0;
 }
 .navbar .navbar-brand img {
+  width: auto;
   height: 40px;
 }
 .navbar .navBar-bg-escuela {
