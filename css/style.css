@@ -378,7 +378,7 @@ footer ul li a img:hover {
 /*Index-------------------------------------------------------------------------------------------------------------*/
 .header-index {
   background-color: #505050;
-  background-image: url("../image/header/index.svg");
+  background-image: url("../image/header/index.png");
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: soft-light;
