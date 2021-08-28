@@ -9,6 +9,10 @@
     border-image-slice: 1;
     box-shadow: 0 15px 25px #00000033;
 
+    @media only screen and (max-width:425px) {
+        background-attachment: unset;
+    }
+
     section {
         height: 100%;
         display: flex;

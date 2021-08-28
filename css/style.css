@@ -421,6 +421,11 @@ footer ul li a img:hover {
   border-image-slice: 1;
   box-shadow: 0 15px 25px #00000033;
 }
+@media only screen and (max-width: 425px) {
+  .header-index {
+    background-attachment: unset;
+  }
+}
 .header-index section {
   height: 100%;
   display: flex;
@@ -448,7 +453,7 @@ footer ul li a img:hover {
   .header-index section h1 {
     /*Mobile*/
     margin: 0;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 .header-index section h1 img {
@@ -487,6 +492,11 @@ footer ul li a img:hover {
 .article-index-one section h2 {
   padding: 3% 2% 1% 2%;
   font-family: "Bungee", "cursive";
+}
+@media only screen and (max-width: 426px) {
+  .article-index-one section h2 {
+    padding: 0;
+  }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-index-one section {
@@ -623,6 +633,11 @@ footer ul li a img:hover {
   border-image: linear-gradient(to right, #dd0000, #ffa500);
   border-image-slice: 1;
   box-shadow: 0 15px 25px #00000033;
+}
+@media only screen and (max-width: 425px) {
+  .header-escuela {
+    background-attachment: unset;
+  }
 }
 .header-escuela section {
   height: 100%;
@@ -849,6 +864,11 @@ footer ul li a img:hover {
   border-image-slice: 1;
   box-shadow: 0 15px 25px #00000033;
 }
+@media only screen and (max-width: 425px) {
+  .header-tripulante {
+    background-attachment: unset;
+  }
+}
 .header-tripulante section {
   height: 100%;
   display: flex;
@@ -975,6 +995,11 @@ footer ul li a img:hover {
   border-image: linear-gradient(to right, #00ad00, #0000ff);
   border-image-slice: 1;
   box-shadow: 0 15px 25px #00000033;
+}
+@media only screen and (max-width: 425px) {
+  .header-piloto {
+    background-attachment: unset;
+  }
 }
 .header-piloto section {
   height: 100%;
@@ -1281,6 +1306,11 @@ footer ul li a img:hover {
   border-image: linear-gradient(to right, #0000ff, #7a007a);
   border-image-slice: 1;
   box-shadow: 0 15px 25px #00000033;
+}
+@media only screen and (max-width: 425px) {
+  .header-contacto {
+    background-attachment: unset;
+  }
 }
 .header-contacto section {
   height: 100%;
