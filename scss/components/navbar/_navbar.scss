@@ -1,9 +1,15 @@
+@import "navbar-bg"; /*bg-color del menú hamburguesa*/
+
 .navbar {
     display: none;
     background-color: $bg-menu;
 
-    img {
-        height: 30px;
+    .navbar-brand {
+        padding-top: 0;
+
+        img {
+            height: 40px;
+        }
     }
 
     .navBar-bg-escuela {
@@ -78,3 +84,4 @@
         margin: 20px auto 0;
     }
 }
+

@@ -21,17 +21,16 @@
         }
 
         h1 {
-            margin-bottom: 5%;
-            margin-top: 5%;
+            margin: 5% 0;
             color: #e0e0e0;
             font-family: $airschool;
 
             @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
-                margin-bottom: 0;
+                margin: 0;
             }
 
             @media only screen and (max-width:426px) { /*Mobile*/
-                margin-bottom: 0;
+                margin: 0;
                 font-size: 3rem;
             }
 
