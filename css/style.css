@@ -400,7 +400,8 @@ footer ul li a img:hover {
   }
 }
 .header-index section h1 {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
   color: #e0e0e0;
   font-family: "Tourney", "cursive";
 }
