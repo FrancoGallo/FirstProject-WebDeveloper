@@ -30,8 +30,8 @@ footer {
                     @include transition (all 300ms ease);
     
                     &:hover {
-                        height: 30px;
-                        @include transition (all 300ms ease);
+                        transform: scale(1.6);
+                        @include transition (all 300ms ease);            
                     }
                 }  
             }

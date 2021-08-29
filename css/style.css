@@ -396,7 +396,7 @@ footer ul li a img {
   -o-transition: all 300ms ease;
 }
 footer ul li a img:hover {
-  height: 30px;
+  transform: scale(1.6);
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
