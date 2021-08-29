@@ -308,7 +308,7 @@ header nav ul li ul li a:hover {
 .socialMenu {
   position: fixed;
   left: 0;
-  top: 225px;
+  top: 220px;
   z-index: 2000;
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
@@ -337,7 +337,7 @@ header nav ul li ul li a:hover {
   display: inline-block;
   color: #ffffff;
   background-color: #000000;
-  padding: 10px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   transition: all 500ms ease;
 }
@@ -1303,6 +1303,11 @@ footer ul li a img:hover {
   border-image-slice: 1;
   box-shadow: 0 15px 25px #00000033;
 }
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .header-contacto {
+    background-attachment: unset;
+  }
+}
 @media only screen and (max-width: 425px) {
   .header-contacto {
     background-attachment: unset;
@@ -1344,8 +1349,24 @@ footer ul li a img:hover {
   }
 }
 
+.article-contacto-one {
+  display: flex;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-contacto-one {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .article-contacto-one {
+    flex-wrap: wrap;
+  }
+}
+.article-contacto-one section {
+  width: 100%;
+}
 .article-contacto-one section iframe {
-  width: 50%;
+  width: 100%;
   height: 600px;
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -1359,6 +1380,20 @@ footer ul li a img:hover {
     width: 100%;
     height: 250px;
   }
+}
+.article-contacto-one section form {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 2%;
+  background-color: #3d3d3d;
+  color: #ffffff;
+  border-radius: 3%;
+}
+.article-contacto-one section form .button {
+  background-image: linear-gradient(to right, #0000ff, #7a007a);
+  color: #ffffff;
+  margin: 1% 35% 0;
 }
 
 @media only screen and (min-width: 769px) and (max-width: 991px) {

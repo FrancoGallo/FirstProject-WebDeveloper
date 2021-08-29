@@ -1,9 +1,19 @@
 .article-contacto-one {
-    
+    display: flex;
+
+    @media only screen and (min-width:426px) and (max-width:768px) {
+        flex-wrap: wrap;
+    }
+
+    @media only screen and (max-width:425px) {
+        flex-wrap: wrap;
+    }
+
     section {
-        
+        width: $width;
+
         iframe {
-            width: $width - 50%;
+            width: $width;
             height: 600px;
 
             @media only screen and (min-width:426px) and (max-width:768px) {
@@ -14,6 +24,22 @@
             @media only screen and (max-width:425px) {
                 width: $width;
                 height: 250px;
+            }
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 2%;
+            margin: 2%;
+            background-color: $bg-submenu-hover;
+            color: #ffffff;
+            border-radius: 3%;
+
+            .button {
+                background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
+                color: #ffffff;
+                margin: 1% 35% 0;
             }
         }
     }

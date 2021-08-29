@@ -2,7 +2,7 @@
 .socialMenu {
     position: fixed;
     left: 0;
-    top: 225px;
+    top: 220px;
     z-index: 2000;
 
     @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
@@ -26,7 +26,7 @@
                 display: inline-block;
                 color: #ffffff;
                 background-color: #000000;
-                padding: 10px 15px;
+                padding: 15px 15px;
                 text-decoration: none;
                 transition: all 500ms ease;
 
