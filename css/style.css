@@ -373,11 +373,45 @@ footer {
   padding: 1% 1%;
   padding-left: 2%;
 }
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  footer {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+}
+@media only screen and (max-width: 426px) {
+  footer {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  footer section {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 426px) {
+  footer section {
+    text-align: center;
+  }
+}
 footer section p {
   margin-bottom: 0;
 }
 footer ul {
   margin-bottom: 0;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  footer ul {
+    padding-left: 0;
+    margin: 3% 0;
+  }
+}
+@media only screen and (max-width: 426px) {
+  footer ul {
+    padding-left: 0;
+    margin: 3% 0;
+  }
 }
 footer ul li {
   list-style: none;
