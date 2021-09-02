@@ -362,6 +362,60 @@ header nav ul li ul li a:hover {
 }
 
 /*Social Menú--------------------------------------------------------------------------*/
+/*Landing Page---------------------------------------------------------------------------*/
+.landing-page {
+  display: none;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .landing-page {
+    display: block;
+    position: fixed;
+    bottom: 45px;
+    right: 5px;
+    padding: 5px 6px 6px;
+    border-radius: 30%;
+  }
+  .landing-page a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .landing-page {
+    display: block;
+    position: fixed;
+    bottom: 60px;
+    right: 5px;
+    padding: 5px 6px 6px;
+    border-radius: 30%;
+  }
+  .landing-page a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.escuela {
+  background-image: linear-gradient(to right, #dd0000, #ffa500);
+}
+
+.tripulante {
+  background-image: linear-gradient(to right, #ffa500, #ffd900);
+}
+
+.index {
+  background-image: linear-gradient(to right, #ffd900, #00ad00);
+}
+
+.piloto {
+  background-image: linear-gradient(to right, #00ad00, #0000ff);
+}
+
+.contacto {
+  background-image: linear-gradient(to right, #0000ff, #7a007a);
+}
+
+/*Landing Page---------------------------------------------------------------------------*/
 /*Footer--------------------------------------------------------------------------------------------------------*/
 footer {
   background-color: #d4d4d8;

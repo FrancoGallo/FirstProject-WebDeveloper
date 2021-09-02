@@ -1,0 +1,59 @@
+/*Landing Page---------------------------------------------------------------------------*/
+.landing-page {
+    display: none;
+
+    @media only screen and (min-width:426px) and (max-width:768px) {
+        display: block;
+        position: fixed;
+        bottom: 45px;
+        right: 5px;
+        padding: 5px 6px 6px;
+        border-radius: 30%;
+
+        a {
+        
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    @media only screen and (max-width:426px) {
+        display: block;
+        position: fixed;
+        bottom: 60px;
+        right: 5px;
+        padding: 5px 6px 6px;
+        border-radius: 30%;
+
+        a {
+        
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+
+.escuela {
+    background-image: linear-gradient(to right, $bg-menu1, $bg-menu2);
+}
+
+.tripulante {
+    background-image: linear-gradient(to right, $bg-menu2, $bg-menu3);
+}
+
+.index {
+    background-image: linear-gradient(to right, $bg-menu3, $bg-menu4);
+}
+
+.piloto {
+    background-image: linear-gradient(to right, $bg-menu4, $bg-menu5);
+}
+
+.contacto {
+    background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
+}
+/*Landing Page---------------------------------------------------------------------------*/
