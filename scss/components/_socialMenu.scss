@@ -5,8 +5,8 @@
     top: 220px;
     z-index: 2000;
 
-    @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
-        display: none;
+    @media only screen and (min-width:769px) and (max-width:991px) {
+        top: 90px;
     }
 
     @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
@@ -25,7 +25,6 @@
             a {
                 display: inline-block;
                 color: #ffffff;
-                background-color: #000000;
                 padding: 15px 15px;
                 text-decoration: none;
                 transition: all 500ms ease;

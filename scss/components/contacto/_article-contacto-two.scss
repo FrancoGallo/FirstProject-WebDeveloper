@@ -1,34 +1,39 @@
 .article-contacto-two {
 
     @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
-        padding: 0 1%;
+        padding: 0 1% 0 5%;
     }
 
     section {
 
         margin: 2% 0;
 
-        .col-4 {
-            margin: 0.5% 0;
+            .row {
+            --bs-gutter-x: 0;
 
-            .card {
-                border-radius: 1.5rem;
-                background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
-                color: #ffffff;
+                .col-4 {
+                    margin: 0.5% 0;
+                    padding: 0 1%;
 
-                a {
-                    background-color: #686868;
-                    border-color: #ffffff00;
+                    .card {
+                        border-radius: 1.5rem;
+                        background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
+                        color: #ffffff;
+
+                        a {
+                            background-color: #686868;
+                            border-color: #ffffff00;
+                        }
+                    }
+
+                    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
+                        width: 100%;
+                    }
+
+                    @media only screen and (max-width:426px) { /*Mobile*/
+                        width: 100%;
+                    }
                 }
-            }
-
-            @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
-                width: 100%;
-            }
-
-            @media only screen and (max-width:426px) { /*Mobile*/
-                width: 100%;
-            }
         }
     }
 }

@@ -313,8 +313,7 @@ header nav ul li ul li a:hover {
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .socialMenu {
-    /*Desktop*/
-    display: none;
+    top: 90px;
   }
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -336,7 +335,6 @@ header nav ul li ul li a:hover {
 .socialMenu ul li a {
   display: inline-block;
   color: #ffffff;
-  background-color: #000000;
   padding: 15px 15px;
   text-decoration: none;
   transition: all 500ms ease;
@@ -690,6 +688,7 @@ footer ul li a img:hover {
   .main-escuela {
     /*Desktop*/
     padding: 0;
+    padding-left: 5%;
   }
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -714,6 +713,11 @@ footer ul li a img:hover {
 .article-escuela-one .escuela-one-text {
   text-align: center;
   font-size: 1.5rem;
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .article-escuela-one .escuela-one-text {
+    padding-left: 1%;
+  }
 }
 @media only screen and (max-width: 426px) {
   .article-escuela-one .escuela-one-text {
@@ -747,7 +751,7 @@ footer ul li a img:hover {
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-escuela-two {
     /*Desktop*/
-    padding: 0;
+    padding: 0 1% 0 2%;
   }
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -774,7 +778,7 @@ footer ul li a img:hover {
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-escuela-three {
     /*Desktop*/
-    padding: 0;
+    padding: 0 1% 0 2%;
   }
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -915,6 +919,12 @@ footer ul li a img:hover {
   border-bottom: solid 5px transparent;
   border-image: linear-gradient(to right, #ffa500, #ffd900);
   border-image-slice: 1;
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .main-tripulante {
+    padding-left: 7%;
+    padding-right: 1%;
+  }
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .main-tripulante {
@@ -1151,6 +1161,11 @@ footer ul li a img:hover {
   padding: 3% 10%;
   display: flex;
 }
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .article-piloto-ppl-three {
+    padding: 3% 1% 3% 7%;
+  }
+}
 .article-piloto-ppl-three .accordion .accordion-button:hover {
   background-image: linear-gradient(to right, #00ad00, #0000ff) !important;
   color: #ffffff !important;
@@ -1300,6 +1315,11 @@ footer ul li a img:hover {
   background-image: linear-gradient(to bottom, #b4b4b4, #a5a5a5);
   padding: 3% 10%;
 }
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .article-piloto-cpl-three {
+    padding: 3% 1% 3% 7%;
+  }
+}
 .article-piloto-cpl-three .accordion .accordion-button:hover {
   background-image: linear-gradient(to right, #00ad00, #0000ff) !important;
   color: #ffffff !important;
@@ -1386,6 +1406,11 @@ footer ul li a img:hover {
 .article-contacto-one {
   display: flex;
 }
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .article-contacto-one {
+    padding-left: 7%;
+  }
+}
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .article-contacto-one {
     flex-wrap: wrap;
@@ -1433,32 +1458,36 @@ footer ul li a img:hover {
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-contacto-two {
     /*Desktop*/
-    padding: 0 1%;
+    padding: 0 1% 0 5%;
   }
 }
 .article-contacto-two section {
   margin: 2% 0;
 }
-.article-contacto-two section .col-4 {
-  margin: 0.5% 0;
+.article-contacto-two section .row {
+  --bs-gutter-x: 0;
 }
-.article-contacto-two section .col-4 .card {
+.article-contacto-two section .row .col-4 {
+  margin: 0.5% 0;
+  padding: 0 1%;
+}
+.article-contacto-two section .row .col-4 .card {
   border-radius: 1.5rem;
   background-image: linear-gradient(to right, #0000ff, #7a007a);
   color: #ffffff;
 }
-.article-contacto-two section .col-4 .card a {
+.article-contacto-two section .row .col-4 .card a {
   background-color: #686868;
   border-color: #ffffff00;
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-  .article-contacto-two section .col-4 {
+  .article-contacto-two section .row .col-4 {
     /*Tablet*/
     width: 100%;
   }
 }
 @media only screen and (max-width: 426px) {
-  .article-contacto-two section .col-4 {
+  .article-contacto-two section .row .col-4 {
     /*Mobile*/
     width: 100%;
   }
