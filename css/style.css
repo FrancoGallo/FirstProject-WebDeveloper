@@ -363,35 +363,51 @@ header nav ul li ul li a:hover {
 
 /*Social Menú--------------------------------------------------------------------------*/
 /*Landing Page---------------------------------------------------------------------------*/
-.landing-page {
+.button-landingPage {
   display: none;
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-  .landing-page {
+  .button-landingPage {
     display: block;
     position: fixed;
-    bottom: 45px;
+    bottom: 50px;
     right: 5px;
-    padding: 5px 6px 6px;
+    padding: 8px 12px;
     border-radius: 30%;
+    font-family: none;
+    line-height: normal;
   }
-  .landing-page a img {
-    width: 30px;
-    height: 30px;
+  .button-landingPage .black-button {
+    color: #000000;
+  }
+  .button-landingPage .white-button {
+    color: #ffffff;
+  }
+  .button-landingPage a {
+    text-decoration: none;
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 426px) {
-  .landing-page {
+  .button-landingPage {
     display: block;
     position: fixed;
     bottom: 60px;
     right: 5px;
-    padding: 5px 6px 6px;
+    padding: 8px 12px;
     border-radius: 30%;
+    font-family: none;
+    line-height: normal;
   }
-  .landing-page a img {
-    width: 30px;
-    height: 30px;
+  .button-landingPage .black-button {
+    color: #000000;
+  }
+  .button-landingPage .white-button {
+    color: #ffffff;
+  }
+  .button-landingPage a {
+    text-decoration: none;
+    font-size: 25px;
   }
 }
 
@@ -408,6 +424,7 @@ header nav ul li ul li a:hover {
 }
 
 .piloto {
+  color: white;
   background-image: linear-gradient(to right, #00ad00, #0000ff);
 }
 

@@ -1,21 +1,24 @@
 /*Landing Page---------------------------------------------------------------------------*/
-.landing-page {
+.button-landingPage {
     display: none;
 
     @media only screen and (min-width:426px) and (max-width:768px) {
         display: block;
         position: fixed;
-        bottom: 45px;
+        bottom: 50px;
         right: 5px;
-        padding: 5px 6px 6px;
+        padding: 8px 12px;
         border-radius: 30%;
+        font-family: none;
+        line-height: normal;
+
+        .black-button {color: #000000;}
+
+        .white-button {color: #ffffff;}
 
         a {
-        
-            img {
-                width: 30px;
-                height: 30px;
-            }
+            text-decoration: none;
+            font-size: 25px;
         }
     }
 
@@ -24,15 +27,18 @@
         position: fixed;
         bottom: 60px;
         right: 5px;
-        padding: 5px 6px 6px;
+        padding: 8px 12px;
         border-radius: 30%;
+        font-family: none;
+        line-height: normal;
+
+        .black-button {color: #000000;}
+
+        .white-button {color: #ffffff;}
 
         a {
-        
-            img {
-                width: 30px;
-                height: 30px;
-            }
+            text-decoration: none;
+            font-size: 25px;
         }
     }
 }
@@ -50,6 +56,7 @@
 }
 
 .piloto {
+    color: white;
     background-image: linear-gradient(to right, $bg-menu4, $bg-menu5);
 }
 
