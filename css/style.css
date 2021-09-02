@@ -479,7 +479,7 @@ footer ul {
 @media only screen and (max-width: 426px) {
   footer ul {
     padding-left: 0;
-    margin: 3% 0;
+    margin: 1% 20% 3% 0;
   }
 }
 footer ul li {
@@ -524,6 +524,7 @@ footer ul li a img:hover {
 @media only screen and (max-width: 426px) {
   footer ul li a img {
     height: 35px;
+    margin-top: 10px;
   }
 }
 
@@ -706,13 +707,13 @@ footer ul li a img:hover {
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .article-index-three section div h3 {
     /*Tablet*/
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 426px) {
   .article-index-three section div h3 {
     /*Mobile*/
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
 }
 .article-index-three section .button-article-three {

@@ -42,7 +42,7 @@ footer {
 
         @media only screen and (max-width:426px) {
             padding-left: 0;
-            margin: 3% 0;
+            margin: 1% 20% 3% 0;
         }
 
         li {
@@ -76,6 +76,7 @@ footer {
 
                     @media only screen and (max-width:426px) {
                         height: 35px;
+                        margin-top: 10px;
                     }
                 }  
             }
