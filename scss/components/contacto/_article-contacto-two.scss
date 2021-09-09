@@ -23,6 +23,10 @@
                         a {
                             background-color: #686868;
                             border-color: #ffffff00;
+
+                            &:hover {
+                                background-color: #7e7e7e;
+                            }
                         }
                     }
 

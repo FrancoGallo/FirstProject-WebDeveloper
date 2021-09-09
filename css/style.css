@@ -532,7 +532,7 @@ footer ul li a img:hover {
 /*Index-------------------------------------------------------------------------------------------------------------*/
 .header-index {
   background-color: #505050;
-  background-image: url("../image/header/index.png");
+  background-image: url("../image/header/index.webp");
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: soft-light;
@@ -647,12 +647,22 @@ footer ul li a img:hover {
 .article-index-one section div div:hover {
   background-image: linear-gradient(to right, #ffd900, #00ad00);
 }
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-index-one section div div {
+    background-image: linear-gradient(to right, #ffd900, #00ad00);
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-index-one section div div {
+    background-image: linear-gradient(to right, #ffd900, #00ad00);
+  }
+}
 .article-index-one section div p {
   text-align: center;
 }
 
 .article-index-two {
-  background-image: url("../image/main-index/index-plane.png");
+  background-image: url("../image/main-index/index-plane.webp");
   background-size: cover;
   background-color: #ffffff75;
   background-blend-mode: soft-light;
@@ -746,7 +756,7 @@ footer ul li a img:hover {
 .header-escuela {
   background-color: #505050;
   background-blend-mode: soft-light;
-  background-image: url("../image/header/escuela.png");
+  background-image: url("../image/header/escuela.webp");
   background-size: cover;
   background-attachment: fixed;
   border-bottom: solid 10px transparent;
@@ -990,7 +1000,7 @@ footer ul li a img:hover {
 .header-tripulante {
   background-color: #505050;
   background-blend-mode: soft-light;
-  background-image: url("../image/header/tripulante.png");
+  background-image: url("../image/header/tripulante.webp");
   background-size: cover;
   background-attachment: fixed;
   border-bottom: solid 10px transparent;
@@ -1133,7 +1143,7 @@ footer ul li a img:hover {
 .header-piloto {
   background-color: #505050;
   background-blend-mode: soft-light;
-  background-image: url("../image/header/piloto.png");
+  background-image: url("../image/header/piloto.webp");
   background-size: cover;
   background-attachment: fixed;
   border-bottom: solid 10px transparent;
@@ -1474,7 +1484,7 @@ footer ul li a img:hover {
 .header-contacto {
   background-color: #505050;
   background-blend-mode: soft-light;
-  background-image: url("../image/header/contacto.png");
+  background-image: url("../image/header/contacto.webp");
   background-size: cover;
   background-attachment: fixed;
   border-bottom: solid 10px transparent;
@@ -1604,6 +1614,9 @@ footer ul li a img:hover {
 .article-contacto-two section .row .col-4 .card a {
   background-color: #686868;
   border-color: #ffffff00;
+}
+.article-contacto-two section .row .col-4 .card a:hover {
+  background-color: #7e7e7e;
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .article-contacto-two section .row .col-4 {
