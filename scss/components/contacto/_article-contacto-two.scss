@@ -1,4 +1,5 @@
 .article-contacto-two {
+    overflow: hidden;
 
     @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
         padding: 0 1% 0 5%;
@@ -19,6 +20,16 @@
                         border-radius: 1.5rem;
                         background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
                         color: #ffffff;
+                        animation: flipInX;
+                        animation-duration: 3s;
+
+                        @media only screen and (min-width:426px) and (max-width:768px) {
+                            animation-duration: 2s;
+                        }
+
+                        @media only screen and (max-width:426px) {
+                            animation-duration: 2s;
+                        }
 
                         a {
                             background-color: #686868;

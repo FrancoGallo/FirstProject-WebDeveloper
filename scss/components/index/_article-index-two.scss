@@ -4,6 +4,7 @@
     background-color: #ffffff75;
     background-blend-mode: soft-light;
     @extend %flex;
+    overflow: hidden;
 
     section {
         width: $width - 30%;
@@ -32,6 +33,45 @@
 
                 h3 {
                     font-family: $secondary-title;
+                }
+            }
+
+            .animateRight {
+                animation: slideInRight;
+                animation-duration: 2.5s;
+
+                @media only screen and (min-width:426px) and (max-width:768px) {
+                    animation-duration: 1s;
+                }
+
+                @media only screen and (max-width:426px) {
+                    animation-duration: 1s;
+                }
+            }
+
+            .animateDown {
+                animation: slideInDown;
+                animation-duration: 1.5s;
+
+                @media only screen and (min-width:426px) and (max-width:768px) {
+                    animation-duration: 1s;
+                }
+
+                @media only screen and (max-width:426px) {
+                    animation-duration: 1s;
+                }
+            }
+
+            .animateLeft {
+                animation: slideInLeft;
+                animation-duration: 2s;
+
+                @media only screen and (min-width:426px) and (max-width:768px) {
+                    animation-duration: 1s;
+                }
+
+                @media only screen and (max-width:426px) {
+                    animation-duration: 1s;
                 }
             }
         }

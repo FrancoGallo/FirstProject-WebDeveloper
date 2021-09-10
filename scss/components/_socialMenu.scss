@@ -4,6 +4,8 @@
     left: 0;
     top: 220px;
     z-index: 2000;
+    animation: bounceInDown;
+    animation-duration: 6s;
 
     @media only screen and (min-width:769px) and (max-width:991px) {
         top: 90px;
@@ -41,7 +43,17 @@
             }
             
             .icon-instagram {
-                background-image: linear-gradient(to right top, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+                background-image: linear-gradient(to left bottom,
+                 #405de6, 
+                 #5851db, 
+                 #833ab4, 
+                 #c13584, 
+                 #e1306c, 
+                 #fd1d1d, 
+                 #f56040, 
+                 #f77737, 
+                 #fcaf45, 
+                 #ffdc80);
             }
             
             .icon-linkedin {

@@ -31,11 +31,15 @@
 
             @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
                 margin: 0;
+                animation: bounceInDown;
+                animation-duration: 1.5s;
             }
 
             @media only screen and (max-width:426px) { /*Mobile*/
                 margin: 0;
                 font-size: 2rem;
+                animation: bounceInDown;
+                animation-duration: 1.5s;
             }
 
             img {
@@ -55,14 +59,31 @@
                 padding: 5%;
                 color: #e0e0e0;
                 font-family: $primary-title;
+                animation: rotateInDownLeft;
+                animation-duration: 2s;
+
+                @media only screen and (min-width:426px) and (max-width:768px) {
+                    animation: none;
+                }
+
+                @media only screen and (max-width:426px) {
+                    animation: none;
+                }
             }
 
             h3 {
                 color: #e0e0e0;
                 font-family: $primary-title;
+                animation: rotateInUpRight;
+                animation-duration: 2.5s;
 
                 @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
                     font-size: 1rem;
+                    animation: none;
+                }
+
+                @media only screen and (max-width:426px) {
+                    animation: none;
                 }
             }
         }

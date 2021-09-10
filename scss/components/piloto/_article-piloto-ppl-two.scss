@@ -2,6 +2,7 @@
     background-image: linear-gradient(to bottom, #e1e1e1, #b4b4b4);
     padding: 2% 10%;
     @extend %flex;
+    overflow: hidden;
 
     @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
         flex-wrap: wrap;
@@ -19,20 +20,26 @@
 
     .piloto-ppl-two-img {
         margin-right: 1%;
+        animation: bounceInRight;
+        animation-duration: 3s;
 
         img {
 
             @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
                 width: 100%;  
+                animation-duration: 1.5s;
             }
 
             @media only screen and (max-width:426px) { /*Mobile*/
                 width: 100%;
+                animation-duration: 1.5s;
             }
         }
     }
 
     .piloto-ppl-two-text {
+        animation: bounceInLeft;
+        animation-duration: 2s;
 
         @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
             margin-top: 3%;
@@ -40,6 +47,11 @@
 
         @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
             margin-top: 3%;
+            animation-duration: 1.5s;
+        }
+
+        @media only screen and (max-width:426px) { /*Mobile*/
+            animation-duration: 1.5s;
         }
 
         div {

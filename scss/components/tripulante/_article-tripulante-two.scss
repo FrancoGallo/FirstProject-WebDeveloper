@@ -1,6 +1,7 @@
 .article-tripulante-two {
     padding: 2% 0;
     @extend %flex;
+    overflow: hidden;
 
     @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
         flex-wrap: wrap;
@@ -16,9 +17,16 @@
 
     .tripulante-two-img {
         margin-right: 1%;
+        animation: bounceInLeft;
+        animation-duration: 2s;
+
+        @media only screen and (min-width:426px) and (max-width:768px) {
+            animation-duration: 1.5s;
+        }
 
         @media only screen and (max-width:425px) {
             margin-right: 0;
+            animation-duration: 1.5s;
         }
 
         img {
@@ -28,6 +36,8 @@
     }
 
     .tripulante-two-text {
+        animation: bounceInRight;
+        animation-duration: 3s;
 
         @media only screen and (min-width:769px) and (max-width:991px) { /*Desktop*/
             margin-top: 3%;
@@ -35,6 +45,11 @@
 
         @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
             margin-top: 3%;
+            animation-duration: 1.5s;
+        }
+
+        @media only screen and (max-width:426px) { /*Mobile*/
+            animation-duration: 1.5s;
         }
 
         div {

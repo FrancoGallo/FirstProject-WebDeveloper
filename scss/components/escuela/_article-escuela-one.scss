@@ -1,8 +1,38 @@
 .article-escuela-one {
     padding: 3% 0 2%;
 
+    .container {
+        div {overflow: hidden;}
+    }
+
     .card {
         background-image: linear-gradient(to right, $bg-menu1, $bg-menu2);
+    }
+
+    .animationLeft {
+        animation: slideInLeft;
+        animation-duration: 1s;
+
+        @media only screen and (min-width:426px) and (max-width:768px) {
+            animation-duration: 0.5s;
+        }
+
+        @media only screen and (max-width:426px) {
+            animation-duration: 0.5s;
+        }
+    }
+
+    .animationRight {
+        animation: slideInRight;
+        animation-duration: 2s;
+
+        @media only screen and (min-width:426px) and (max-width:768px) {
+            animation-duration: 0.5s;
+        }
+
+        @media only screen and (max-width:426px) {
+            animation-duration: 0.5s;
+        }
     }
 
     .escuela-one-text { 

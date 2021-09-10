@@ -310,6 +310,8 @@ header nav ul li ul li a:hover {
   left: 0;
   top: 220px;
   z-index: 2000;
+  animation: bounceInDown;
+  animation-duration: 6s;
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .socialMenu {
@@ -349,7 +351,7 @@ header nav ul li ul li a:hover {
   background-color: #1877f2;
 }
 .socialMenu ul li .icon-instagram {
-  background-image: linear-gradient(to right top, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background-image: linear-gradient(to left bottom, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
 }
 .socialMenu ul li .icon-linkedin {
   background-color: #0a66c2;
@@ -567,6 +569,8 @@ footer ul li a img:hover {
   .header-index section h1 {
     /*Tablet*/
     margin: 0;
+    animation: bounceInDown;
+    animation-duration: 1.5s;
   }
 }
 @media only screen and (max-width: 426px) {
@@ -574,6 +578,8 @@ footer ul li a img:hover {
     /*Mobile*/
     margin: 0;
     font-size: 2rem;
+    animation: bounceInDown;
+    animation-duration: 1.5s;
   }
 }
 .header-index section h1 img {
@@ -591,15 +597,35 @@ footer ul li a img:hover {
   padding: 5%;
   color: #e0e0e0;
   font-family: "Black Ops One", "cursive";
+  animation: rotateInDownLeft;
+  animation-duration: 2s;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .header-index section div h2 {
+    animation: none;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .header-index section div h2 {
+    animation: none;
+  }
 }
 .header-index section div h3 {
   color: #e0e0e0;
   font-family: "Black Ops One", "cursive";
+  animation: rotateInUpRight;
+  animation-duration: 2.5s;
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .header-index section div h3 {
     /*Tablet*/
     font-size: 1rem;
+    animation: none;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .header-index section div h3 {
+    animation: none;
   }
 }
 
@@ -666,6 +692,7 @@ footer ul li a img:hover {
   background-size: cover;
   background-color: #ffffff75;
   background-blend-mode: soft-light;
+  overflow: hidden;
 }
 .article-index-two section {
   width: 70%;
@@ -691,6 +718,48 @@ footer ul li a img:hover {
 }
 .article-index-two section div div h3 {
   font-family: "Bungee", "cursive";
+}
+.article-index-two section div .animateRight {
+  animation: slideInRight;
+  animation-duration: 2.5s;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-index-two section div .animateRight {
+    animation-duration: 1s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-index-two section div .animateRight {
+    animation-duration: 1s;
+  }
+}
+.article-index-two section div .animateDown {
+  animation: slideInDown;
+  animation-duration: 1.5s;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-index-two section div .animateDown {
+    animation-duration: 1s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-index-two section div .animateDown {
+    animation-duration: 1s;
+  }
+}
+.article-index-two section div .animateLeft {
+  animation: slideInLeft;
+  animation-duration: 2s;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-index-two section div .animateLeft {
+    animation-duration: 1s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-index-two section div .animateLeft {
+    animation-duration: 1s;
+  }
 }
 
 .article-index-three {
@@ -809,8 +878,39 @@ footer ul li a img:hover {
 .article-escuela-one {
   padding: 3% 0 2%;
 }
+.article-escuela-one .container div {
+  overflow: hidden;
+}
 .article-escuela-one .card {
   background-image: linear-gradient(to right, #dd0000, #ffa500);
+}
+.article-escuela-one .animationLeft {
+  animation: slideInLeft;
+  animation-duration: 1s;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-escuela-one .animationLeft {
+    animation-duration: 0.5s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-escuela-one .animationLeft {
+    animation-duration: 0.5s;
+  }
+}
+.article-escuela-one .animationRight {
+  animation: slideInRight;
+  animation-duration: 2s;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-escuela-one .animationRight {
+    animation-duration: 0.5s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-escuela-one .animationRight {
+    animation-duration: 0.5s;
+  }
 }
 .article-escuela-one .escuela-one-text {
   text-align: center;
@@ -903,6 +1003,7 @@ footer ul li a img:hover {
 }
 .article-escuela-four {
   padding: 1% 0;
+  overflow: hidden;
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-escuela-four {
@@ -1056,6 +1157,7 @@ footer ul li a img:hover {
 
 .article-tripulante-two {
   padding: 2% 0;
+  overflow: hidden;
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-tripulante-two {
@@ -1077,15 +1179,27 @@ footer ul li a img:hover {
 }
 .article-tripulante-two .tripulante-two-img {
   margin-right: 1%;
+  animation: bounceInLeft;
+  animation-duration: 2s;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-tripulante-two .tripulante-two-img {
+    animation-duration: 1.5s;
+  }
 }
 @media only screen and (max-width: 425px) {
   .article-tripulante-two .tripulante-two-img {
     margin-right: 0;
+    animation-duration: 1.5s;
   }
 }
 .article-tripulante-two .tripulante-two-img img {
   width: 100%;
   height: 300px;
+}
+.article-tripulante-two .tripulante-two-text {
+  animation: bounceInRight;
+  animation-duration: 3s;
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-tripulante-two .tripulante-two-text {
@@ -1097,6 +1211,13 @@ footer ul li a img:hover {
   .article-tripulante-two .tripulante-two-text {
     /*Tablet*/
     margin-top: 3%;
+    animation-duration: 1.5s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-tripulante-two .tripulante-two-text {
+    /*Mobile*/
+    animation-duration: 1.5s;
   }
 }
 .article-tripulante-two .tripulante-two-text div h2 {
@@ -1206,6 +1327,7 @@ footer ul li a img:hover {
 .article-piloto-ppl-two {
   background-image: linear-gradient(to bottom, #e1e1e1, #b4b4b4);
   padding: 2% 10%;
+  overflow: hidden;
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-piloto-ppl-two {
@@ -1229,18 +1351,26 @@ footer ul li a img:hover {
 }
 .article-piloto-ppl-two .piloto-ppl-two-img {
   margin-right: 1%;
+  animation: bounceInRight;
+  animation-duration: 3s;
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .article-piloto-ppl-two .piloto-ppl-two-img img {
     /*Tablet*/
     width: 100%;
+    animation-duration: 1.5s;
   }
 }
 @media only screen and (max-width: 426px) {
   .article-piloto-ppl-two .piloto-ppl-two-img img {
     /*Mobile*/
     width: 100%;
+    animation-duration: 1.5s;
   }
+}
+.article-piloto-ppl-two .piloto-ppl-two-text {
+  animation: bounceInLeft;
+  animation-duration: 2s;
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-piloto-ppl-two .piloto-ppl-two-text {
@@ -1252,6 +1382,13 @@ footer ul li a img:hover {
   .article-piloto-ppl-two .piloto-ppl-two-text {
     /*Tablet*/
     margin-top: 3%;
+    animation-duration: 1.5s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-piloto-ppl-two .piloto-ppl-two-text {
+    /*Mobile*/
+    animation-duration: 1.5s;
   }
 }
 .article-piloto-ppl-two .piloto-ppl-two-text div h3 {
@@ -1362,6 +1499,7 @@ footer ul li a img:hover {
 .article-piloto-cpl-two {
   background-image: linear-gradient(to bottom, #e1e1e1, #b4b4b4);
   padding: 2% 10%;
+  overflow: hidden;
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-piloto-cpl-two {
@@ -1386,6 +1524,10 @@ footer ul li a img:hover {
     padding: 1% 0;
   }
 }
+.article-piloto-cpl-two .piloto-ppl-two-text {
+  animation: bounceInRight;
+  animation-duration: 3s;
+}
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-piloto-cpl-two .piloto-ppl-two-text {
     /*Desktop*/
@@ -1396,6 +1538,13 @@ footer ul li a img:hover {
   .article-piloto-cpl-two .piloto-ppl-two-text {
     /*Tablet*/
     margin-top: 3%;
+    animation-duration: 1.5s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-piloto-cpl-two .piloto-ppl-two-text {
+    /*Mobile*/
+    animation-duration: 1.5s;
   }
 }
 .article-piloto-cpl-two .piloto-ppl-two-text div h3 {
@@ -1416,11 +1565,14 @@ footer ul li a img:hover {
 }
 .article-piloto-cpl-two .piloto-ppl-two-img {
   margin-left: 3%;
+  animation: bounceInLeft;
+  animation-duration: 2s;
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .article-piloto-cpl-two .piloto-ppl-two-img {
     /*Tablet*/
     margin-left: 0;
+    animation-duration: 1.5s;
   }
   .article-piloto-cpl-two .piloto-ppl-two-img img {
     width: 100%;
@@ -1430,6 +1582,7 @@ footer ul li a img:hover {
   .article-piloto-cpl-two .piloto-ppl-two-img {
     /*Mobile*/
     margin-left: 0;
+    animation-duration: 1.5s;
   }
   .article-piloto-cpl-two .piloto-ppl-two-img img {
     width: 100%;
@@ -1590,6 +1743,9 @@ footer ul li a img:hover {
   margin: 1% 35% 0;
 }
 
+.article-contacto-two {
+  overflow: hidden;
+}
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .article-contacto-two {
     /*Desktop*/
@@ -1610,6 +1766,18 @@ footer ul li a img:hover {
   border-radius: 1.5rem;
   background-image: linear-gradient(to right, #0000ff, #7a007a);
   color: #ffffff;
+  animation: flipInX;
+  animation-duration: 3s;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .article-contacto-two section .row .col-4 .card {
+    animation-duration: 2s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .article-contacto-two section .row .col-4 .card {
+    animation-duration: 2s;
+  }
 }
 .article-contacto-two section .row .col-4 .card a {
   background-color: #686868;
