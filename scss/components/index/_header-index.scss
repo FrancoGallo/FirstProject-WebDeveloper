@@ -32,14 +32,14 @@
             @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
                 margin: 0;
                 animation: bounceInDown;
-                animation-duration: 1.5s;
+                animation-duration: 2s;
             }
 
             @media only screen and (max-width:426px) { /*Mobile*/
                 margin: 0;
                 font-size: 2rem;
                 animation: bounceInDown;
-                animation-duration: 1.5s;
+                animation-duration: 2s;
             }
 
             img {
