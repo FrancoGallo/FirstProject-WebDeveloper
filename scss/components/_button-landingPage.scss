@@ -1,11 +1,11 @@
-/*Landing Page---------------------------------------------------------------------------*/
+/*Button landing page---------------------------------------------------------------------------*/
 .button-landingPage {
     display: none;
 
-    @media only screen and (min-width:426px) and (max-width:768px) {
+    @media only screen and (min-width:426px) and (max-width:768px) { /*Tablet*/
         display: block;
         position: fixed;
-        bottom: 50px;
+        bottom: 65px;
         right: 5px;
         padding: 8px 12px;
         border-radius: 30%;
@@ -22,10 +22,10 @@
         }
     }
 
-    @media only screen and (max-width:426px) {
+    @media only screen and (max-width:426px) { /*Mobile*/
         display: block;
         position: fixed;
-        bottom: 60px;
+        bottom: 75px;
         right: 5px;
         padding: 8px 12px;
         border-radius: 30%;
@@ -63,4 +63,4 @@
 .contacto {
     background-image: linear-gradient(to right, $bg-menu5, $bg-menu6);
 }
-/*Landing Page---------------------------------------------------------------------------*/
+/*Button landing page---------------------------------------------------------------------------*/
