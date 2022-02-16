@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Franco Gallo</h1>
 <h3 align="center">A web developer from Argentina</h3>
 
-- 👨‍💻 **This is my first project as a web developer**
+- 👨‍💻 **This is my first project using only HTML and CSS**
 
 
 <h3 align="left">Languages and Tools:</h3>
