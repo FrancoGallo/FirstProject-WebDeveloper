@@ -1,5 +1,5 @@
 # FirstProject-WebDeveloper
-<h1 align="center">Hi my friend 👋</h1>
+<h1 align="center">Hello my friend 👋</h1>
 
 - 👨‍💻 **This is my first project using only HTML and CSS**
 
